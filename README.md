@@ -14,7 +14,7 @@ It will help new developer save time as the required configurations would be rea
 ### How to setup this application in local?
 You can simply download the application to you machine and then
 1. Run `mvn clean install`
-2. Run it as a spring boot applicatoin
+2. Run it as a spring boot application
 
 ---
 
