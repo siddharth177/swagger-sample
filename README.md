@@ -6,7 +6,7 @@ It has step-by-step implementation of those properties. (please check the commit
 
 ---
 
-### How can this be helpful?
+### How this can be helpful?
 It will help new developer save time as the required configurations would be readily available.
 
 ---
