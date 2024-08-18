@@ -15,6 +15,8 @@ It will help new developer save time as the required configurations would be rea
 You can simply download the application to you machine and then
 1. Run `mvn clean install`
 2. Run it as a spring boot application
+3. Swagger UI will be available on [`http://localhost:8080/swaggerSample/swagger-ui/index.html#/`](http://localhost:8080/swaggerSample/swagger-ui/index.html#/)
+4. Swagger API docs will be available on [`http://localhost:8080/swaggerSample/v3/api-docs`](http://localhost:8080/swaggerSample/v3/api-docs)
 
 ---
 
