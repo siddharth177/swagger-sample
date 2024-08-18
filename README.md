@@ -15,3 +15,9 @@ You can simply download the application to you machine and then
 ### How can you contribute?
 It is an open source project where any one can contribute and keep it updated. You can simply
 fork this project and raise a merge request to merge it into the main branch.
+
+
+### Resources
+[`https://springdoc.org/#google_vignette`](https://springdoc.org/#google_vignette)
+[`https://spec.openapis.org/oas/latest.html#toc`](https://spec.openapis.org/oas/latest.html#toc)
+
