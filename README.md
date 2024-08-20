@@ -1,5 +1,7 @@
 # Sample Swagger Application
 
+[![---](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#what-it-does)
+
 ### What it does?
 This application is designed to provide details on some most commonly used swagger properties. 
 It has step-by-step implementation of those properties. (please check the commits that has detailed messages)
