@@ -7,9 +7,17 @@ import lombok.NonNull;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+
+import static com.example.swaggersample.services.StudentService.students;
 
 @Data
-@Schema(name = "Student", description = "Scheme of Student Object")
+@Schema(    // used on a POJO
+        title = "Student Schema",
+        name = "Student",
+        description = "Scheme of Student Object",
+        deprecated = false
+)
 public class Student {
     @NonNull
     private Integer id;
@@ -19,7 +27,7 @@ public class Student {
     private List<String> courses = new ArrayList<>();
     private String email = "";
 
-    public Student(int i, String name) {
+    public Student(int i, @NonNull String name) {
         this.id = i;
         this.name = name;
     }
