@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class StudentService {
     public static List<Student> students = new ArrayList<>(){{
-        add(new Student(1, "Ashok"));
+        add(new Student(1, "Ashok", new ArrayList<>(){{add("Physics"); add("Chemistry");}}, "ashok@gmail.com"));
         add(new Student(2, "Bob"));
         add(new Student(3, "Jack"));
         add(new Student(4, "Mary"));

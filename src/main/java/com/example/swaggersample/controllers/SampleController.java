@@ -96,7 +96,8 @@ public class SampleController {
     }
 
     @GetMapping("/student/{id}/{info}")
-    public Object getStudentDetail(@PathVariable int id, @PathVariable String info) {
+    public Object getStudentDetail(@PathVariable int id,
+                                   @Parameter(description = "info of student that you need like name, courses etc", name = "info", example = "name") @PathVariable String info) {
         return studentService.getStudentDetail(id, info);
     }
 }

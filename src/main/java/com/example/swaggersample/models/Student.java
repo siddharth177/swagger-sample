@@ -31,4 +31,11 @@ public class Student {
         this.id = i;
         this.name = name;
     }
+
+    public Student(int i, @NonNull String name, List<String> courses, String email) {
+        this.id = i;
+        this.name = name;
+        this.courses = courses;
+        this.email = email;
+    }
 }
