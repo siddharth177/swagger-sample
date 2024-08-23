@@ -11,7 +11,7 @@ import java.util.List;
 @Schema(    // used on a POJO
         title = "Student Schema",
         name = "Student",
-        description = "Scheme of Student Object",
+        description = "Schema of Student Object",
         deprecated = false
 )
 public class Student {
