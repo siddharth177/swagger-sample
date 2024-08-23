@@ -14,8 +14,6 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
 
-import static com.example.swaggersample.services.StudentService.students;
-
 @RestController
 @RequestMapping("/api")
 @OpenAPIDefinition( // defined in a controller class but only once
